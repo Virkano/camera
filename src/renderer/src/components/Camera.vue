@@ -7,6 +7,7 @@ onMounted(() => {
   const constraints = {
     audio: false,
     video: { deviceId: config.deviceId, width: 1920, height: 1080 }
+    // eslint-disable-next-line no-undef
   } as MediaStreamConstraints
   const video = document.querySelector('video')!
 
